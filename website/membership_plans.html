@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"> <!-- Defines the character encoding of the document -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport properties for responsive design -->
+<title>Membership Plans</title> <!-- Sets the title of the webpage -->
+<style>
+    body {
+        background-color: rgb(192, 246, 222); /* Sets the background color of the body */
+    }
+    
+    .container {
+        display: flex; /* Enables flexbox layout */
+        justify-content: center; /* Centers the content horizontally */
+        align-items: center; /* Centers the content vertically */
+        flex-wrap: wrap; /* Allows content to wrap to the next line if needed */
+        gap: 20px; /* Sets the gap between flex items */
+    }
+    
+    .box {
+        background-color: rgb(238, 195, 160); /* Sets the background color of the boxes */
+        border: 1px solid #000; /* Sets a border around the boxes */
+        padding: 20px; /* Adds padding inside the boxes */
+        text-align: center; /* Aligns text to the center */
+        width: 400px; /* Sets the width of the boxes */
+    }
+    .heading{
+        text-align: center; /* Aligns the heading text to the center */
+    }
+    .student{
+        margin-top: 50px; /* Adds margin at the top of the student section */
+        display: flex; /* Enables flexbox layout for the student section */
+        justify-content: center; /* Centers the content horizontally */
+        align-items: center; /* Centers the content vertically */
+        flex-wrap: wrap; /* Allows content to wrap to the next line if needed */
+    }
+    .homepage-link {
+            position: absolute; /* Positions the link absolutely */
+            top: 10px; /* Sets the distance from the top */
+            left: 10px; /* Sets the distance from the left */
+        }
+    #memb {
+        margin-bottom: 55px; /* Adds margin at the bottom of the membership price */
+    }
+</style>
+</head>
+<body>
+    <a href="task_2.html" class="homepage-link"><h3>Back to Homepage</h3></a> <!-- Creates a link back to the homepage -->
+    <h1 class="heading">Membership Plans</h1> <!-- Displays the heading for membership plans -->
+
+<div class="container">
+    <div class="box">
+        <h2>Basic<br> Membership</h2> <!-- Displays the name of the membership plan -->
+        <h4 id="memb">Price 30£</h4> <!-- Displays the price of the membership -->
+        <ul>
+            <li>Access to gym facilities during standard operating hours.</li> <!-- Lists the features included in the membership -->
+            <li>Use of basic gym equipment such as treadmills, stationary bikes, and free weights.</li>
+            <li>Access to locker rooms and showers.</li>
+            <li>Access to basic yoga, beginner's aerobics, and pump training.</li>
+            <li>Discounted rates on personal training sessions and specialized classes.</li>
+            
+        </ul>
+    </div>
+    <div class="box">
+        <h2>Standard Membership</h2> <!-- Displays the name of the membership plan -->
+        <h4>Price 50£</h4> <!-- Displays the price of the membership -->
+        <ul>
+            <li>All services included in Basic Membership.</li> <!-- Lists the features included in the membership -->
+            <li>Access to gym facilities 24/7.</li>
+            <li>Use of advanced gym equipment including elliptical machines,
+                 rowing machines, and resistance training machines.</li>
+            <li>Unlimited access to all group fitness classes including high-intensity interval training (HIIT),
+                 spinning, and boot camp.</li>
+            <li>Complimentary fitness assessment and personalized workout plan.</li>
+            <li>Access to sauna and steam room facilities.</li>
+            <li>Discounts on gym merchandise and supplements.</li>
+        </ul>
+    </div>
+    <div class="box">
+        <h2>Premium Membership</h2> <!-- Displays the name of the membership plan -->
+        <h4>Price 80£</h4> <!-- Displays the price of the membership -->
+        <ul>
+            <li>All services included in Premium Membership.</li> <!-- Lists the features included in the membership -->
+            <li>Priority access to equipment and facilities during peak hours.</li>
+            <li>Exclusive access to VIP lounge area with complimentary refreshments and Wi-Fi.</li>
+            <li>Unlimited access to premium amenities such as indoor swimming pool, hot tub, and racquetball courts.</li>
+            <li>Complimentary towel service and locker rental.</li>
+            <li>Priority booking for personal training sessions and specialized classes.</li>
+            <li>Invitations to exclusive member events and workshops with fitness experts and guest speakers.</li> 
+        </ul>
+    </div>
+</div>
+<div class="student">
+    <div class="box">
+    <h2>Student Membership</h2> <!-- Displays the name of the student membership plan -->
+    <h4>Price 25£</h4> <!-- Displays the price of the student membership -->
+    <p>Services provided in standard membership</p> <!-- Describes the services included in the student membership -->
+    </div>
+</div>
+
+</body>
+</html>

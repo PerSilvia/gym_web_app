@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Defines the character encoding of the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport properties for responsive design -->
+    <title>Fitness Activities</title> <!-- Sets the title of the webpage -->
+    <style>
+        body {
+            background-color: #abcdef; /* Sets the background color of the body */
+            display: flex; /* Enables flexbox layout */
+            flex-direction: column; /* Arranges flex items in a column */
+            align-items: center; /* Aligns flex items along the center horizontally */
+            text-align: center; /* Aligns text to the center */
+        }
+
+        .heading {
+            margin-bottom: 20px; /* Adds margin at the bottom of the heading */
+        }
+        .images{
+            display: flex; /* Enables flexbox layout for images */
+            flex-direction: row; /* Arranges images in a row */
+            justify-content: space-around; /* Distributes space around the images */
+            align-items: center; /* Aligns images along the center vertically */
+            flex-wrap: wrap; /* Allows images to wrap to the next line if needed */
+        }
+
+        .image-container {
+            display: flex; /* Enables flexbox layout for image containers */
+            flex-direction: column; /* Arranges content of image containers in a column */
+            align-items: center; /* Aligns content of image containers along the center horizontally */
+            margin: 20px; /* Adds margin around each image container */
+        }
+
+        .image-container img {
+            max-width: 250px; /* Sets the maximum width of images */
+            max-height: 250px; /* Sets the maximum height of images */
+        }
+
+        h1, h3 {
+            margin: 0; /* Removes default margin from headings */
+        }
+        .homepage-link {
+            position: absolute; /* Positions the link absolutely */
+            top: 10px; /* Sets the distance from the top */
+            left: 10px; /* Sets the distance from the left */
+        }
+    </style>
+</head>
+<body>
+    <a href="task_2.html" class="homepage-link"><h3>Back to Homepage</h3></a> <!-- Creates a link back to the homepage -->
+    <div class="heading">
+        <h1>Fitness Activities</h1> <!-- Displays the heading for fitness activities -->
+        <h2>Cardio</h2> <!-- Displays the subheading for cardio activities -->
+    </div>
+    
+    <div class="images">
+        <div class="image-container">
+            <h3>Spinning</h3> <!-- Displays the name of the activity -->
+            <img src="images/Spinning.jpg" alt="Image 1"> <!-- Displays the image for spinning -->
+            <a href="">Book a session>></a> <!-- Provides a link to book a session -->
+        </div>
+
+        <div class="image-container">
+            <h3>Zumba</h3> <!-- Displays the name of the activity -->
+            <img src="images/zumba.jpg" alt="Image 4"> <!-- Displays the image for Zumba -->
+            <a href="">Book a session>></a> <!-- Provides a link to book a session -->
+        </div>
+
+        <div class="image-container">
+            <h3>Aerobics</h3> <!-- Displays the name of the activity -->
+            <img src="images/aerobics.jpg" alt="Image 7"> <!-- Displays the image for aerobics -->
+            <a href="">Book a session>></a> <!-- Provides a link to book a session -->
+        </div>
+    </div>
+    <h2>Strength Training</h2> <!-- Displays the subheading for strength training -->
+    <div class="images">
+        <div class="image-container">
+            <h3>Pump</h3> <!-- Displays the name of the activity -->
+            <img src="images/pump.jpg" alt="Image 4"> <!-- Displays the image for Pump -->
+            <a href="">Book a session>></a> <!-- Provides a link to book a session -->
+        </div>
+
+        <div class="image-container">
+            <h3>Body Combat</h3> <!-- Displays the name of the activity -->
+            <img src="images/bodycombat.jpg" alt="Image 5"> <!-- Displays the image for Body Combat -->
+            <a href="">Book a session>></a> <!-- Provides a link to book a session -->
+        </div>
+
+        <div class="image-container">
+            <h3>Grit Strength</h3> <!-- Displays the name of the activity -->
+            <img src="images/grit.jpg" alt="Image 6"> <!-- Displays the image for Grit Strength -->
+            <a href="">Book a session>></a> <!-- Provides a link to book a session -->
+        </div>
+    </div>
+    <h2>Yoga</h2> <!-- Displays the subheading for yoga -->
+    <div class="images">
+        <div class="image-container">
+            <h3>Vinyasa</h3> <!-- Displays the name of the activity -->
+            <img src="images/vinyasa.jpg" alt="Image 1"> <!-- Displays the image for Vinyasa -->
+            <a href="">Book a session>></a> <!-- Provides a link to book a session -->
+        </div>
+
+        <div class="image-container">
+            <h3>Hatha Yoga</h3> <!-- Displays the name of the activity -->
+            <img src="images/hatha.jpg" alt="Image 4"> <!-- Displays the image for Hatha Yoga -->
+            <a href="">Book a session>></a> <!-- Provides a link to book a session -->
+        </div>
+
+        <div class="image-container">
+            <h3>Yin Yoga</h3> <!-- Displays the name of the activity -->
+            <img src="images/yin.jpg" alt="Image 7"> <!-- Displays the image for Yin Yoga -->
+            <a href="">Book a session>></a> <!-- Provides a link to book a session -->
+        </div>
+    </div>
+</body>
+</html>

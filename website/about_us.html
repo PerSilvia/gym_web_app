@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us</title>
+<style>
+    /* CSS Styles */
+    body, html {
+        margin: 0; /* Resetting margin */
+        padding: 0; /* Resetting padding */
+        height: 100%; /* Setting height to 100% */
+        font-family: Arial, sans-serif; /* Font family */
+    }
+
+    /* Flexbox container for overall layout */
+    .wrapper {
+        display: flex; /* Flexbox layout */
+        flex-direction: column; /* Column direction for children */
+        min-height: 100vh; /* Minimum height to fill viewport */
+    }
+
+    /* Header and Footer */
+    header {
+        height: 80px; /* Setting height */
+        background-color: #7de4cc; /* Background color */
+        color: #000000; /* Text color */
+        text-align: center; /* Center-aligning text */
+        padding: 20px 0; /* Padding for content */
+    }
+    footer {
+        height: 30px; /* Setting height */
+        background-color: #7de4cc; /* Background color */
+        color: #000000; /* Text color */
+        text-align: center; /* Center-aligning text */
+        padding: 20px 0; /* Padding for content */
+    }
+
+    /* Content area */
+    .content {
+        flex: 1; /* Flex to fill remaining space */
+        display: grid; /* Grid layout */
+        grid-template-columns: 2fr 2fr 1fr; /* Adjust column widths as needed */
+    }
+
+    .grid-item {
+        background-color: #f0f0f0; /* Background color */
+        padding: 20px; /* Padding */
+        border: 1px solid #ccc; /* Border */
+    }
+    img {
+        height: 600px; /* Image height */
+        width: 600px; /* Image width */
+    }
+    li {
+        margin-bottom: 10px; /* Bottom margin for list items */
+    }
+    .company-info p {
+        margin-top: 10px; /* Top margin for paragraph */
+    }
+    .homepage-link {
+        color: #000000; /* Link color */
+        position: absolute; /* Absolute positioning */
+        top: 10px; /* Distance from top */
+        left: 10px; /* Distance from left */
+    }
+</style>
+</head>
+<body>
+    <!-- Link back to homepage -->
+    <a href="task_2.html" class="homepage-link"><h1>Back to Homepage</h1></a>
+<div class="wrapper">
+    <!-- Header -->
+    <header>
+      <h1>About Us</h1> <!-- Main heading -->
+    </header>
+
+    <!-- Main content -->
+    <div class="content">
+        <!-- Grid item 1 -->
+        <div class="grid-item">
+        
+          <!-- Company information section -->
+          <section id="company-info">
+            <h2>Our Company</h2> <!-- Section heading -->
+            <p>In our quest for greatness, our goal was clear:
+                 to forge a haven where mental and physical well-being intertwined seamlessly.
+                 Challenges tested us, yet as a unified team, we prevailed.
+                 Together, we birthed a gym that transcended its physical space, a beacon of hope within our community.</p> <!-- Company information -->
+                 <p>In 2022, our journey began. Through perseverance, our humble gym blossomed into a vibrant hub,
+               attracting those seeking transformation.
+                Each success story fueled our passion, reinforcing our mission.</p> <!-- Company information -->
+                
+
+                <p>Today, as we stand at the cusp of a new era, we reflect with gratitude.
+               What began as a dream has become a testament to resilience and the human spirit.
+                Looking ahead, our determination to inspire remains unwavering.
+                 For us, greatness isn't just a goal;
+               it's the essence of our journey—a journey embraced with open hearts and boundless optimism.</p> <!-- Company information -->
+          </section>
+          <!-- Values section -->
+          <section id="values-info">
+            <h2>Our Values</h2> <!-- Section heading -->
+            <ul>
+              <!-- List of values -->
+              <li><b>Embrace Humanity:</b> We value humility and authenticity in every interaction,
+                fostering inclusivity and genuine connections.
+              </li>
+                <li><b>Make a Difference:</b> We actively contribute to positive change,
+                  caring deeply about environmental sustainability, social responsibility, and the welfare of others.
+                </li>
+                  <li><b>Do What's Right:</b> Integrity, honesty, and trust are non-negotiable.
+                    We hold ourselves accountable to ethical standards, making principled decisions even in challenging situations.
+                  </li>
+                  <li>
+                    <b>Pioneer Innovation:</b> We embrace innovation and adaptability, 
+              challenging norms and seeking new avenues for growth.
+                  </li>
+                  <li>
+                    <b>Prioritize People:</b> Our team is more than colleagues; we're a supportive family.
+               We prioritize each other's well-being, fostering a culture of solidarity and care.
+                  </li>
+            </ul>
+          </section>
+          <!-- Team section -->
+          <section id="team-info">
+            <h2>Active Body & Mind Hub is led by:</h2> <!-- Section heading -->
+            <!-- Team members -->
+            <div class="team-member">
+              <h3>Silvia Persinov</h3> <!-- Team member name -->
+              <p>CEO</p> <!-- Team member role -->
+            </div>
+            <div class="team-member">
+              <h3>Jane Smith</h3> <!-- Team member name -->
+              <p>CTO</p> <!-- Team member role -->
+            </div>
+          </section>
+        </div>
+        <!-- Grid item 2 -->
+        <div class="grid-item">
+    <img src="images/about_us_img.jpg" alt="Logo"> <!-- Image -->
+        </div>
+        <!-- Grid item 3 -->
+        <div class="grid-item">Column 3</div> <!-- Placeholder content for grid item 3 -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2022 Active Body & Mind Hub. All rights reserved.</p> <!-- Copyright notice -->
+    </footer>
+</div>
+
+</body>
+</html>

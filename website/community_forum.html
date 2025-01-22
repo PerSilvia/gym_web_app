@@ -1,0 +1,201 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Community Forum</title> 
+<style>
+    /* CSS Styles */
+    body, html {
+        margin: 0; /* Resetting margin */
+        padding: 0; /* Resetting padding */
+        height: 100%; /* Setting height to 100% */
+        font-family: Arial, sans-serif; /* Setting font family */
+    }
+
+    /* Ensuring a minimum height for the wrapper */
+    .wrapper {
+        display: flex; /* Flexbox layout */
+        flex-direction: column; /* Column direction for children */
+        min-height: 100vh; /* Minimum height to fill viewport */
+    }
+
+    /* Styling for header and footer */
+    header, footer {
+        height: 80px; /* Setting height */
+        background-color: #333; /* Background color */
+        color: #fff; /* Text color */
+        text-align: center; /* Center-aligning text */
+        padding: 20px 0; /* Padding for content */
+    }
+
+    /* Styling for main content */
+    .content {
+        flex: 1; /* Flex to fill remaining space */
+        display: grid; /* Grid layout */
+        grid-template-columns: 1fr 2fr; /* Two columns */
+    }
+
+    /* Styling for grid items */
+    .grid-item {
+        background-color: #f0f0f0; /* Background color */
+        padding: 20px; /* Padding */
+    }
+    .container {
+        max-width: 800px; /* Maximum width */
+        margin: 20px auto; /* Margin settings */
+    }
+
+    /* Styling for forum posts */
+    .forum-post {
+        text-align: left; /* Left-aligning text */
+        background-color: rgb(116, 210, 124); /* Background color */
+        border: 1px solid #ccc; /* Border */
+        border-radius: 5px; /* Border radius */
+        padding: 20px; /* Padding */
+        margin-bottom: 20px; /* Bottom margin */
+    }
+
+    .post-title {
+        margin-top: 0; /* Top margin for post title */
+    }
+
+    .post-content {
+        margin-bottom: 10px; /* Bottom margin for post content */
+    }
+
+    .comment-section {
+        margin-top: 0px; /* Top margin for comment section */
+    }
+
+    .comment {
+        border-top: 1px solid #ccc; /* Top border for comments */
+        padding-top: 0px; /* Padding for comments */
+    }
+
+    .comment-text {
+        margin-bottom: 0px; /* Bottom margin for comment text */
+    }
+
+    input {
+        margin-top: 20px; /* Top margin for input */
+    }
+    .homepage-link {
+        color: aliceblue; /* Link color */
+        position: absolute; /* Absolute positioning */
+        top: 10px; /* Distance from top */
+        left: 10px; /* Distance from left */
+    }
+    img {
+        max-width: 300px; /* Maximum width for images */
+        margin-right: 5px; /* Right margin for images */
+    }
+    .virtual{
+        background-color: rgb(81, 213, 239); /* Background color */
+        max-width: 350px; /* Maximum width */
+        max-height: 400px; /* Maximum height */
+        margin-top: 20px; /* Top margin */
+        margin-left: 10px; /* Left margin */
+    }
+    .inner-virtual {
+        margin-left: 5px; /* Left margin for inner content */
+        margin-bottom: 20px; /* Bottom margin for inner content */
+    }
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+    <!-- Header section -->
+    <header>
+      <h1>Community Forum</h1> <!-- Main heading -->
+      <!-- Link to go back to the homepage -->
+      <a href="task_2.html" class="homepage-link"><h3>Back to Homepage</h3></a>
+    </header>
+
+    <!-- Main content -->
+    <div class="content">
+        <!-- Grid item 1 -->
+        <div class="grid-item">
+            <!-- Virtual event section 1 -->
+            <div class="virtual">
+                <div class="inner-virtual">
+                    <h3>Join our event:</h3> <!-- Heading for event -->
+                    <h3>Procrastination</h3> <!-- Event title -->
+                    <p>Duration: 30 minutes<br> <!-- Event duration -->
+                    Time:12:30 <br>Date: 05/05/2024</p> <!-- Event time and date -->
+                    <img src="images/procrastination-2.jpg" alt="Image 1"> <!-- Image for event -->
+                    <a href="">Join now>></a>  <!-- Link to join event -->
+                </div>
+            </div>
+            <!-- Virtual event section 2 -->
+            <div class="virtual">
+                <div class="inner-virtual">
+                    <h3>Join our event:</h3> <!-- Heading for event -->
+                    <h3>Exercise and Mental Health</h3> <!-- Event title -->
+                    <p>Duration: 20 minutes<br> <!-- Event duration -->
+                    Time:19:00 <br>Date: 06/06/2024</p> <!-- Event time and date -->
+                    <img src="images/Untitled.png" alt="Image 1"><br> <!-- Image for event -->
+                    <a href="">Join now>></a> <!-- Link to join event -->
+                </div>
+            </div>
+        </div>
+        <!-- Grid item 2 -->
+        <div class="grid-item">
+            <!-- Container for forum posts -->
+            <div class="container">
+                <!-- Forum post 1 -->
+                <div class="forum-post">
+                    <h2 class="post-title">1. Nutrition Tips Discussion:</h2> <!-- Post title -->
+                    <p class="post-content">"What are your favorite pre-workout snacks?
+                         I'm always looking for new ideas to fuel my workouts effectively without feeling too heavy."</p> <!-- Post content -->
+                    <!-- Comment section for post 1 -->
+                    <div class="comment-section">
+                        <div class="comment">
+                            <p><b>FitnessFan123</b></p> <!-- Username -->
+                            <p class="comment-text">I eat banana and almond butter before a workout!</p> <!-- Comment content -->
+                            <p><b>GymGuru99</b></p> <!-- Username -->
+                            <p class="comment-text">Smoothie bowls are my go-to - so refreshing and energizing.</p> <!-- Comment content -->
+                            <form>
+                                <label for="age">Age:</label>
+                                <input type="number" id="age" name="age" placeholder="Enter your age">
+                              </form>
+                            <button>Leave a comment</button> <!-- Button to leave a comment -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Forum post 2 -->
+                <div class="forum-post">
+                    <h2 class="post-title">2. Workout Routine Sharing:</h2> <!-- Post title -->
+                    <p class="post-content">Hey everyone! Just wanted to share my latest workout routine that's been working wonders for me.
+                         It focuses on HIIT cardio and strength training. Let me know if you have any questions or feedback!</p> <!-- Post content -->
+                    <!-- Comment section for post 2 -->
+                    <div class="comment-section">
+                        <div class="comment">
+                            <p><b>WellnessWarrior</b></p> <!-- Username -->
+                            <p class="comment-text">Great routine! I'll definitely give it a try.</p> <!-- Comment content -->
+                            <form>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email">
+                              </form>
+                            <button>Leave a comment</button> <!-- Button to leave a comment -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Registration button -->
+                <p>Not registered yet?</p> <!-- Message -->
+                <button>Register now</button> <!-- Button to register -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <p>&copy; 2022 Active Body & Mind Hub. All rights reserved.</p> <!-- Copyright notice -->
+    </footer>
+</div>
+
+</body>
+</html>

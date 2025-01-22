@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<style>
+    /* CSS Styles */
+    body {
+        font-family: Arial, sans-serif; /* Font family and generic font */
+        margin: 0; /* Resetting margin */
+        padding: 0; /* Resetting padding */
+        background-color: #f2f2f2; /* Background color */
+    }
+
+    .container {
+        max-width: 800px; /* Maximum width */
+        margin: 0 auto; /* Centering horizontally */
+        padding: 20px; /* Padding */
+    }
+
+    h1 {
+        text-align: center; /* Center-aligning text */
+        margin-bottom: 20px; /* Bottom margin for spacing */
+    }
+
+    .contact-form {
+        background-color: #fff; /* Background color */
+        padding: 30px; /* Padding */
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    }
+
+    .form-group {
+        margin-bottom: 20px; /* Bottom margin for spacing */
+    }
+
+    .form-group label {
+        display: block; /* Block-level display for labels */
+        font-weight: bold; /* Bold font weight */
+        margin-bottom: 5px; /* Bottom margin for spacing */
+    }
+
+    .form-group input, 
+    .form-group textarea {
+        width: 100%; /* Full width */
+        padding: 10px; /* Padding */
+        border: 1px solid #ccc; /* Border */
+        border-radius: 5px; /* Rounded corners */
+    }
+
+    .form-group textarea {
+        resize: vertical; /* Allowing vertical resizing */
+        min-height: 100px; /* Minimum height */
+    }
+
+    .form-group input[type="submit"] {
+        background-color: #031c36; /* Background color */
+        color: #fff; /* Text color */
+        border: none; /* Removing border */
+        cursor: pointer; /* Cursor style */
+        padding: 10px 20px; /* Padding */
+        border-radius: 5px; /* Rounded corners */
+    }
+
+    .form-group input[type="submit"]:hover {
+        background-color: #0056b3; /* Hover background color */
+    }
+
+    .faq-section {
+        margin-top: 40px; /* Top margin for spacing */
+    }
+
+    .faq-question {
+        font-weight: bold; /* Bold font weight */
+        margin-bottom: 10px; /* Bottom margin for spacing */
+    }
+
+    .faq-answer {
+        margin-bottom: 20px; /* Bottom margin for spacing */
+    }
+
+    .homepage-link {
+        color: aliceblue; /* Link color */
+        position: absolute; /* Absolute positioning */
+        top: 10px; /* Distance from top */
+        left: 10px; /* Distance from left */
+    }
+</style>
+</head>
+<body>
+    <!-- Link back to homepage -->
+    <a href="task_2.html" class="homepage-link" style="text-decoration: none; color: #007bff; display: block; margin-bottom: 20px;"><h3>Back to Homepage</h3></a>
+
+<div class="container">
+    <!-- Heading -->
+    <h1>Contact Us</h1>
+    <!-- Contact form -->
+    <div class="contact-form">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label> <!-- Label for name input -->
+                <input type="text" id="name" name="name" required> <!-- Input for name -->
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label> <!-- Label for email input -->
+                <input type="email" id="email" name="email" required> <!-- Input for email -->
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label> <!-- Label for message input -->
+                <textarea id="message" name="message" required></textarea> <!-- Textarea for message -->
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit"> <!-- Submit button -->
+            </div>
+        </form>
+    </div>
+    
+    <!-- FAQ section -->
+    <div class="faq-section">
+        <h2>FAQs</h2>
+        <!-- FAQ items -->
+        <div class="faq-question">Q: What are your opening hours?</div> <!-- FAQ question -->
+        <div class="faq-answer">A: Our gym is open from 6:00 AM to 10:00 PM, Monday to Saturday.</div> <!-- FAQ answer -->
+        
+        <div class="faq-question">Q: Do you offer personal training sessions?</div> <!-- FAQ question -->
+        <div class="faq-answer">A: Yes, we offer personalized training sessions with certified trainers. Please contact us for more information.</div> <!-- FAQ answer -->
+        
+        <div class="faq-question">Q: Can I cancel my membership?</div> <!-- FAQ question -->
+        <div class="faq-answer">A: Yes, you can cancel your membership at any time. Please refer to our membership terms and conditions for details.</div> <!-- FAQ answer -->
+    </div>
+</div>
+
+</body>
+</html>
